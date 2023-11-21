@@ -1,0 +1,47 @@
+html,
+body {
+  min-height: 100%;
+
+}
+
+
+body {
+  font-family: sans-serif;
+  background-color: #454040;
+  color: lightgray;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 200%;
+  text-decoration: underline;
+}
+
+input,
+select,
+button {
+  padding: 16px;
+
+  border-radius: 20px;
+  border: 5px #8b4105 solid;
+  background-color: #ffffff;
+}
+
+button:hover,
+button:focus {
+  background-color: #8b4105;
+  color: white;
+  outline: #8b4105;
+  cursor: crosshair;
+
+}
+
+.formcontrol:focus,
+.formcontrol:hover {
+  color: rgb(0, 0, 0);
+  outline: #8b4105;
+}
