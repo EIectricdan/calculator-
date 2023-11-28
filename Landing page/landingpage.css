@@ -1,0 +1,61 @@
+/* selector{
+  property:value;
+} */
+
+html,
+body {
+  background-image: url(https://i.pinimg.com/564x/55/e8/1e/55e81ed4b955587451af5555921d8002.jpg);
+  text-shadow:
+    0 0 7px #FF10F0,
+    0 0 10px #FF10F0,
+    0 0 21px #FF10F0,
+    0 0 42px #FF10F0,
+    0 0 82px #FF10F0,
+    0 0 92px #FF10F0,
+    0 0 102px #FF10F0,
+    0 0 151px #FF10F0;
+}
+
+/* Additional NEON styling */
+
+
+body {
+  font-family: sans-serif;
+  font-size: 35px;
+  color: #fff;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  animation: flicker 1.5s infinite alternate;
+}
+
+@keyframes flicker {
+
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow:
+      0 0 7px #FF10F0,
+      0 0 10px #FF10F0,
+      0 0 21px #FF10F0,
+      0 0 42px #FF10F0,
+      0 0 82px #FF10F0,
+      0 0 92px #FF10F0,
+      0 0 102px #FF10F0,
+      0 0 151px #FF10F0;
+  }
+
+  20%,
+  25%,
+  55% {
+    text-shadow: none;
+  }
+
+
+}
